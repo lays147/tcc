@@ -1,14 +1,35 @@
 \documentclass[a4paper,10pt]{article}
 \usepackage[utf8]{inputenc}
+\usepackage{subfiles}
+\usepackage{lipsum}
+\usepackage{caption}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{tikz}
+\usepackage{verbatim}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{forest}
+\usepackage{adjustbox}
+\usepackage{smartdiagram}
+\usepackage{graphicx} % Possibilita o uso de figuras e gráficos
+\usepackage{color}    % Possibilita o uso de cores no documento
 
 %opening
 \title{Atelier Printer Host para Impressão 3D}
 \author{Lays Rodrigues}
 
 \begin{document}
-
 \maketitle
+\tableofcontents
+\newpage
 
-\section{}
+\input{chapters/introducao.tex}
+\newpage
+\input{chapters/estado_da_arte.tex}
+\newpage
+\input{chapters/desenvolvimento.tex}
+\newpage
+\input{chapters/conclusao.tex}
 
 \end{document}
