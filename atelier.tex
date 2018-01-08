@@ -14,7 +14,9 @@
 \usepackage{smartdiagram}
 \usepackage{graphicx} % Possibilita o uso de figuras e gráficos
 \usepackage{color}    % Possibilita o uso de cores no documento
+\usepackage{float}
 
+\graphicspath{ {./chapters/images/} }
 %opening
 \title{Atelier Printer Host para Impressão 3D}
 \author{Lays Rodrigues}
@@ -22,8 +24,8 @@
 \begin{document}
 \maketitle
 \tableofcontents
+\listoffigures
 \newpage
-
 \input{chapters/introducao.tex}
 \newpage
 \input{chapters/estado_da_arte.tex}
