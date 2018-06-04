@@ -23,8 +23,8 @@ ferramentas de controle e gerenciamento da Impressora 3D, ele
 possui um ambiente de renderização de objetos 3D, sejam eles
 os objetos CAD ou o arquivo GCode, possui monitoração de
 temperaturas, e o fatiamento de arquivos CAD para GCode
-usando fatiadores externos. Para extenser o seu uso, também
-existem o Repetier-Server, que permite o controle remoto da
+usando fatiadores externos. Para extender o seu uso, também
+existe o Repetier-Server, que permite o controle remoto da
 impressora, e o Repetier-Firmware, que pode ser o firmware
 embarcado na Impressora 3D. O Repetier Host possuia seu
 código aberto até a versão 0.90 lançada em 23 de Junho de
@@ -59,7 +59,7 @@ acesso a ferramentas como o controle geral da impressora, monitoração de tempe
 ser informado através de 'Push Notifications' do status da impressora, além de possuir
  plugins que estendem suas funcionalidades. O OctoPrint possui seu código aberto
  sobre a licença AGPL, e foi criado pela desenvolvedora alemã Gina Häußge. A versão
- 1.0.0 do OctoPrint foi lançada em 28 de Outubro de 2013 e hoje se encontra na versão 1.3.6.
+ 1.0.0 do OctoPrint foi lançada em 28 de Outubro de 2013 e nomento da escrita deste trabalho se encontra na versão 1.3.6.
 Häußge escreveu o código do OctoPrint usando Python-Flask para a parte servidor, e HTML/JavaScript para o cliente.
 \iffalse
 Referências:
@@ -77,3 +77,23 @@ https://octoprint.org/#compatible-and-extendable
 \end{figure}
 
 \subsubsection{MatterControl}
+O Matter Control é um printer host desenvolvido desde 2014 pela empresa MatterHackers sediada
+na Califórnia, Estados Unidos. Em suas ferramentas se encontram a renderização do modelo em 3D,
+gerenciamento geral da impressora e envios de SMS quando a impressão se conclui.
+Possui seu código fonte aberto sobre a licença BSD 2-Clause e é 100\% escrito
+com a linguagem de programação C\#. É uma aplicação multiplataforma, porém no ambiente
+Linux é limitado as plataformas baseadas em distribuições Ubuntu ou Linux Mint, de acordo com os binários
+disponibilizados em seu website. No momento da escrita deste trabalho, o Matter Control se encontra na versão 1.7.5.
+\iffalse
+Referências:
+- Release: https://github.com/MatterHackers/MatterControl/tree/Releases
+- Author: Matter Hackers
+- Licença: https://github.com/MatterHackers/MatterControl/blob/master/LICENSE
+- Site: https://www.matterhackers.com/mattercontrol
+\fi
+
+\begin{figure}[H]
+    \centering
+    \caption[Repetier Host]{Visão Geral do Matter Control}
+    \includegraphics[width=\linewidth]{mattercontrol}
+\end{figure}
