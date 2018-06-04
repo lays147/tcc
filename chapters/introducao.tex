@@ -17,20 +17,45 @@ O uso de tecnologias CAD permitem que os protótipos virtuais de um produto
 \citet{rapidproto2010} "sejam estressados, testados e analisados como se eles fossem protótipos físicos".
 
 As aplicações da Prototipagem Rápida se encontram em diversos mercados. Como o mercado
-automotivo, onde empresas usam desta tecnologia para otimizar partes de um carro, ou na medicina,
-onde já é possível produzir próteses de titâneo que se encaixam perfeitamente ao rosto de um paciente.
+automotivo, onde empresas usam desta tecnologia para otimizar partes de um carro\citet{artley2017}, ou na medicina,
+onde já é possível produzir próteses de titâneo que se encaixam perfeitamente ao membro de um paciente \citet{nature2017}.
 
 O uso de Prototipagem Rápida possui várias vantagens para o usuário, como redução do desperdício
-de material e de mão de obra. Além de agilizar o processo de validação do conceito proposto.
+de material e de mão de obra. Além de agilizar o processo de validação do conceito proposto.\citet{rapidproto2010}
 
 \subsection{Histórico}
-A Impressão 3D não é uma tecnologia recente, as primeiras
-tentativas de criar objetos sólidos com manufatura aditiva datam dos anos 60.
-Uma das primeiras tentativas de criar objetos sólidos usando \textit{fotopolímeros} usando laser
+A Impressão 3D não é uma tecnologia recente, as primeiras tentativas de criar objetos
+sólidos com manufatura aditiva datam dos anos 60.
+Uma das primeiras tentativas de criar objetos sólidos usando \textit{fotopolímeros} e a tecnologia a laser
 aconteceu, segundo, \citet{terry2016}, no \textit{Battelle Memorial Institute} em Ohio, nos Estados Unidos.
 Entretanto, somente em Maio de 1980 que tivemos o primeiro protótipo de \textit{estereolitografia}
 desenvolvido por \textit{Hideo Kodama} que fazia parte do \textit{Nagoya Municipal Industrial Research Institute}.
-
+Em 1987 a 3DSystems foi fundada e entrou no comércio de manufatura aditiva com o
+sistema de \textit{Stereolithography}, ou seja, Estereolitografia, método que tem
+atribuido a sigla SLA. Até a chegada de 1990, o mercado de impressão 3D só possuia
+impressoras baseadas na tecnologias SLA. Em 1991, a compania Stratasys comercializou
+o primeiro modelo de impressora
+com a tecnologia de \textit{Fused Deposition Modeling - FDM}. Outra tecnologia
+que também teve seu lançamento em 1992, foi a \textit{Selective Laser Sintering - SLS},
+que foi lançada pela DTM, que havia sido adquirida pela 3DSystems. Os anos posteriores a 1992
+foram dominados por lançamentos e variações das tecnologias citadas anteriormente
+pelas empresas Stratasys e 3DSystems entre outras indústrias \citet{terry2016}.
+Em 2005 na \textit{Bath University of England}, o Dr Adrian Bowyer fundou o projeto
+RepRap, com o objetivo de criar impressoras 3D de baixo custo,
+pois até então o custo de uma impressora pessoal desenvolvida pela Stratasys, do
+modelo \textit{uPrint Personal Printer} era em torno de 14.900 Dólares\citet{terry2016}.
+O modelo desenvolvido no grupo \textit{Bits from Bytes of England}, direcionado
+por Bowyer, teve por objetivo um modelo de baixo custo auto replicante,
+ou seja, a impressora poderia imprimir outras partes dela mesma para construir
+outras impressoras. Onde RepRap é o acrônimo para
+\textit{\textbf{rep}licating} \textit{\textbf{rap}id} \textit{prototyper}. Em 2009
+o primeiro modelo desenvolvido pela equipe de Bowyer é lançado e batizado de \textit{RapMan}
+com o custo de 750 Euros.
+Segundo \citet{terry2016}, com a expiração de patentes chaves a partir de 2010, e a
+introdução de equipamentos em formas de kits baseadas no projeto RepRap, os chamados
+ \textit{"low-cost personal systems"}, ou seja, sistemas de baixo custo pessoal, sofreram
+um forte crescimento. E é esperado que quando as patentes dos sistemas SLA e SLS expirem,
+organizações e indivíduos possam usufruir vantagens de parecidas.
 
 \subsection{Principais Tecnologias}
 \subsubsection{FDM - Fused Deposition Modeling}
@@ -43,5 +68,15 @@ como todo sistema eletrônico. E sua estrutura pode ser definida pela árvore ab
 \newline
 
 \input{./figuras/hierarchy.tex}
+
+\subsubsection{Hardware}
+\paragraph{Firmware}
+
+\subsubsection{Software}
+\begin{enumerate}
+  \item Printer Host
+  \item Fatiadores
+  \item Modelagem 3D
+\end{enumerate}
 
 \subsection{Impressoras RepRap x Comerciais}
